@@ -1,0 +1,17 @@
+   p {
+                font-size: 22pt;
+                color: blue;
+            }
+            
+            #gruby_mazurek {
+                font-size: 17pt;
+                color: purple;
+                font-weight: bold;
+            }
+            
+            #dlawszystkich_mazurek {
+                font-size: 10pt;
+                color: green;
+                font-family: 'Arial', sans-serif;
+            }
+        

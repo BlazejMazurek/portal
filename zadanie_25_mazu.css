@@ -1,0 +1,58 @@
+
+#pierszy_akapit{  
+    text-align:center;  
+    font-family: serif;
+    color: #ddcf09;
+    line-height: 1cm;
+    word-spacing:12px;
+    letter-spacing:18mm;  
+    text-indent:30mm;
+}
+
+#drugi_akapit{
+    text-align:right;
+    font-family:sans-serif;
+    color: #2a99cc;
+    line-height: 1cm;
+    word-spacing:12px;
+    letter-spacing: 2ex;
+    text-indent: 1cm;
+}
+
+#zdanie_1{
+    font-weight: 200;
+    font-size: x-small;
+    text-transform:lowercase;
+    font-variant: 'kapitaliki';
+}
+
+#zdanie_2{
+    font-weight: 400;
+    font-size: x-large;
+    text-decoration: overline;   
+}
+
+#zdanie_3{
+    font-weight: 900;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+#zdanie_4{
+    font-weight: 300;
+    font-size: medium;
+    text-decoration: line-through;
+    font-variant: 'kapitaliki';
+}
+
+#zdanie_5{
+    font-weight: 600;
+    font-size: x-large;
+    font-style: oblique;
+}
+
+#zdanie_6{
+    font-weight: 800;
+    font-size: small;
+    text-transform:uppercase;
+}

@@ -1,0 +1,95 @@
+<html>
+	<head>
+
+	</head>
+	<body>
+		<h4>HTML</h4>
+		<textarea rows="42" cols="95">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <LINK href="zadanie_65_mazurek.css" rel="stylesheet" type="text/CSS">
+    </head>
+    <body bgcolor="gray">
+        <div id="pierwszy_mazurek">
+            <p :first child>Pierwszy akapit/pierwszy DIV-->Mazurek id="pierwszy_mazurek</p>
+			<p>Drugi akapit/pierwszy DIV</p>
+			<p>pierwszy akapit--> p:first-child {font-size:9mm; font-style:italic;}</p>
+			<p>bo numer parzysty w dzienniku</p>
+			<p>pozostałe akapity--> p{font-size:10pt;}bo numer parzysty</p>
+			<p>szerokość bloku = 700 + 14 * 4 = 756pt</p>
+			<p>pierwszy DIV--> kolor różowy</p>
+			<br>
+			<p>trzeci akapit/pierwszy DIV</p>
+			<p>pierwszy DIV--> obramowanie fioletowe DIV</p>
+			<p>pierwszy DIV--> obramowanie grubość 7px, ciągłe(solid)</p>
+			<p>pierwszy DIV--> r1=7px+6(Błażej)=13px</p>
+        </div>
+		<div id="drugi_mazurek">
+			<p :first child>Pierwszy akapit/Drugi DIV-->Błażej id="drugi_mazurek</p>
+			<p>Drugi akapit/drugi DIV</p>
+			<p>drugi DIV-->kolor jasnozielony</p>
+			<br>
+			<p>Trzeci akapit/drugi DIV</p>
+			<p>drugi DIV--> obramowanie czarne DIV</p>
+			<p>drugi DIV--> obramowanie grubość 3px, ciągłe(solid)</p>
+			<p>drugi DIV--> r2 = 7px + 7(Mazurek)=14px</p>
+		</div>
+		<div id="trzeci_mazurek">
+			<p :first child>Pierwszy akapit/Trzeci</p>
+			<p>Drugi akapit/trzeci DIV</p>
+			<p>pierwszy DIV--> kolor jasnoniebieski</p>
+			<br>
+			<p>Trzeci akapit/trzeci DIV
+			<p>Trzeci DIV--> obramowanie granatowe DIV</p>
+			<p>Trzeci DIV--> obramowanie grubość 5px, ciągłe(solid)</p>
+			<p>Trzeci DIV--> r3=7px+4(Kwiecień)=11px</p>
+    </body>
+</html>
+		</textarea>
+		<h4>CSS</h4>
+		</textarea rows="42" cols="45">
+p{
+    font-size: 10px;
+}
+p:first-child{
+    font-size:9mm;
+    font-style:italic;
+}
+div#pierwszy_mazurek{
+    width: 756pt;
+    background-color: rgb(255, 192, 203);
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    border: solid 7px;
+    border-color: rgb(128, 0, 128);
+}
+#drugi_mazurek{
+    width: 956pt;
+    background-color:rgb(144, 238, 144);
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom-right-radius: 14px;
+    border-bottom-left-radius: 14px;
+    border: solid 3px;
+    border-color:rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+}
+#trzeci_mazurek{
+    width: 1156pt;
+    background-color: rgb(173, 216, 230);
+    border-top-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-bottom-left-radius: 11px;
+    border: solid 5px;
+    border-color: rgb(0, 0, 128);
+    margin-left: auto;
+    margin-right: auto;
+}
+		</textarea>
+</body>
+</html>

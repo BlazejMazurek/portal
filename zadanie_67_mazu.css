@@ -1,0 +1,19 @@
+p#pierwszy:first-letter{
+    font-size:114pt;
+    color:#0000ff
+}
+
+p#pierwszy{
+    color:#ff0000;
+    font-size: 21pt;
+}
+
+p#drugi:first-letter{
+    font-size:114pt;
+    color:#90ee90;
+}
+
+p#drugi{
+    color:#ff0000;
+    font-size: 20pt;
+}

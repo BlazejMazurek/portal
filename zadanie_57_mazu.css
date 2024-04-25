@@ -1,0 +1,13 @@
+*{
+    color:blue;
+    size: 36pt;
+    background-color: yellow;
+}
+p.klasa_nieuniwersalna_mazurek {
+    size: 32pt;
+    color:purple;
+}
+*.klasa_uniwersalna_mazurek{
+    size: 24pt;
+    color: green;
+}

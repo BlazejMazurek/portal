@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+    <head>
+        <title>zadanie 57 Mazurek</title>
+    </head>
+    <body>
+        <h1>HTML</h1>
+        <textarea rows="40" cols="87">
+            <!DOCTYPE html>
+            <html lang="pl-PL">
+                <head>
+                    <title>zadanie 57 Mazurek</title>
+                    <LINK href="zadanie_57_mazu.css" rel="stylesheet" type="text/CSS">
+                </head>
+                <body>
+                    <p>formatowany selektora uniwersalnego</p>
+                    Akapit 1 Nowak klasa 1P grupa 1<br>
+                    Użyłem * gwiazdka dla selektora uniwersalnego,<br>
+                    Parametry dla selektora uniwersalnego:<br>
+                    wielkość 30+liczba_liter_imienia w [pt] = 30+6 (Błażej)=36 [pt] ,<br>
+                    mam numer w dzienniku 14 a więc nieparzysty, czyli kolor tła żółty.<br>
+                    kolor liter niebieski (dla numerów parzystych w dzienniku),
+                    <br>
+                    <br>
+                    <p class="mazurek">
+                        Użyłem p. klasa_nieuniwersalna_mazurek,<br>
+                        Parametry dla klasy nieuniwersalnej:<br>
+                        wielkość 25+liczba_liter_nazwiska w [pt] = 25+7 (Mazurek)=32 [pt] ,<br>
+                        kolor liter fioletowy (dla numerów parzystych w dzienniku).
+                    </p>
+                    <br>
+                   <br>
+                    <h1 class=" klasa_uniwersalna_mazurek">
+                        żyłem . klasa_uniwersalna_mazurek dla H1,<br>
+                        Parametry dla klasy uniwersalnej:<br>
+                        wielkość 20+miesiąc urodzenia w [pt] = 20+4 (kwiecień)=24 [pt] ,<br>
+                        kolor liter zielony (dla numerów parzystych w dzienniku)
+                    <br>
+                    <br>
+                    <h2 class="klasa_uniwersalna_mazurek">
+                        żyłem . klasa_uniwersalna_mazurek dla H2,<br>
+                        Parametry dla klasy uniwersalnej:<br>
+                        wielkość 20+miesiąc urodzenia w [pt] = 20+4 (kwiecień)=24 [pt] ,<br>
+                        kolor liter zielony (dla numerów parzystych w dzienniku)
+                    </h2>
+        </textarea>
+        <h1>CSS</h1>
+        <textarea rows="15" cols="34">
+            *{
+                color:blue;
+                size: 36pt;
+                background-color: yellow;
+            }
+            p.mazurek {
+                size: 32pt;
+                color:purple;
+            }
+            *.klasa_uniwersalna_mazurek{
+                size: 24pt;
+                color: green;
+            }
+            
+        </textarea>
+    </body>
+</html>

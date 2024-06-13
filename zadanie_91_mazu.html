@@ -1,0 +1,120 @@
+<!- okreslenie typu HTML dla walidatora -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<! xmlns okresla przestrzeń nazw dla xml -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pl" lang="pl">
+<head>
+<title>styl wewnetrzny body</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<!- styl wewnetrzny -->
+<style type="text/css">
+ /* zerowanie wszystkich marginesów i przestrzeni*/
+ * {
+ margin: 0px;
+ padding: 0px; 
+ }
+ /* definicja div*/
+ /* overflow: hidden - -> ukrycie nadmiarowości czyli gdy elementy div są za duże*/
+ div {
+ overflow: hidden;
+ }
+ /* definicja ramki-główny element*/
+ /* margin-right: auto;-wartość domyślna */
+ #ramka {
+ background-color: #C93;
+ width: 1000px;
+ margin-right: auto;
+ margin-left: auto;
+ } 
+ /* definicja nagłówka*/ 
+ #naglowek {
+ width: 100%;
+ background-color: #D0BF22;
+ font-size: 1cm;
+ color:darkgreen;
+ text-align: center;
+ }
+ /* definicja stopki*/ 
+ #stopka {
+ width: 100%;
+ background-color: #86804A; 
+ }
+ /* definicja klasy kolumny */
+ .kolumny {
+ width:30%;
+ margin-top:10px;
+ margin-right:2%;
+ margin-bottom:2%;
+ margin-left:10px;
+ }
+ /* definicje trzech kolumn */
+ /* float :left; to aby elementy były obok siebie */ 
+ 
+ #kolumna_pierwsza {
+ float:left;
+ background-color: #8EC869;
+ }
+ #kolumna_druga {
+ float:left;
+ background-color: #6296B4;
+ } 
+ #kolumna_trzecia { 
+ background-color: #8C3E2D;
+ float:left;
+ }
+</style>
+</head>
+<body>
+ <div id="ramka">
+ <div id="naglowek">Błażej Mazurek 1P</div>
+ <div class="kolumny" id="kolumna_pierwsza">
+
+    <li>w oparciu o tabele (HTML -> nie stosowane)</li>
+    <li>w oparciu o iframe (HTML -> nie stosowane)</li>
+    <li>na DIVach</li>
+    <li>w oparciu o instrukcje HTML5</li>
+    <p> &nbsp; </p>
+    <p> &nbsp; </p>
+    <p> &nbsp; </p>
+    <p> &nbsp; </p>
+ 
+ </div>
+ <div class="kolumny" id="kolumna_druga">
+
+    <li>overflow: hidden - -> ukrycie nadmiarowości czyli gdy elementy div są za duże</li>
+    <li>float:left; - -> żeby elementy były obok siebie</li>
+    <li>margin-top:10px; - -> margines nałożony na górze</li>
+    <li>margin-right:2px; - ->margines nałożony na prawo</li>
+    <li>margin-bottom:2px; - ->margines nałożony na dół</li>
+    <li>margin-left:10px; - -> margines nałożony na lewo</li>
+
+ <p> &nbsp; </p>
+ <p> &nbsp; </p>
+ <p> &nbsp; </p>
+ <p> &nbsp; </p>
+ </div>
+ <div class="kolumny" id="kolumna_trzecia">
+
+    <li>SECTION</li>
+    <li>ARTICLE</li>
+    <li>ASIDE</li>
+    <li>HEADER</li>
+    <li>FOOTER</li>
+    <li>NAV</li>
+
+ <p> &nbsp; </p>
+ <p> &nbsp; </p>
+ <p> &nbsp; </p>
+ <p> &nbsp; </p>
+ </div>
+ <div id="stopka">tutaj jest stopka 
+
+        <li>w oparciu o tabele (HTML -> nie stosowane)</li>
+        <li>w oparciu o iframe (HTML -> nie stosowane)</li>
+        <li>na DIVach</li>
+        <li>w oparciu o instrukcje HTML5</li>
+
+ </div> 
+ </div> 
+</body>
+</html>
